@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Favorite Recipes</title>
+    <meta charset="utf-8">
+    <style>
+        /* ✅ Element selectors */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #f4a261;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2a9d8f;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #264653;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #e76f51;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #e9c46a;
+        }
+
+        ul {
+            width: 60%;
+            margin: 0 auto 20px auto;
+            line-height: 1.6;
+        }
+
+        ol {
+            width: 80%;
+            margin: 30px auto;
+            padding-left: 20px;
+        }
+
+        /* ✅ ID selector */
+        #toc {
+            background-color: #f1faee;
+            padding: 15px;
+            border: 2px solid #a8dadc;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        /* ✅ Class selector */
+        .source {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Favorite Recipes</h1>
+
+    <!-- ✅ ID for styling -->
+    <div id="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#recipe1">Spaghetti Bolognese</a></li>
+            <li><a href="#recipe2">Chocolate Chip Cookies</a></li>
+            <li><a href="#recipe3">Vegetable Stir Fry</a></li>
+        </ol>
+    </div>
+
+    <!-- ✅ Recipe 1 -->
+    <h2 id="recipe1">Spaghetti Bolognese</h2>
+
+    <ul>
+        <li><strong>Time:</strong> 45 minutes</li>
+        <li><strong>Serves:</strong> 4 people</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Spaghetti</td><td>300g</td></tr>
+            <tr><td>Ground beef</td><td>400g</td></tr>
+        </tbody>
+    </table>
+
+    <p>Boil spaghetti in salted water until al dente. Meanwhile, sauté onion and garlic in olive oil, then add the beef. Cook until browned. Pour in tomato sauce and simmer. Combine with pasta and serve hot with grated cheese.</p>
+
+    <p class="source">Source: <a href="https://www.bbcgoodfood.com/recipes/spaghetti-bolognese" target="_blank">BBC Good Food</a></p>
+
+    <!-- ✅ Recipe 2 -->
+    <h2 id="recipe2">Chocolate Chip Cookies</h2>
+
+    <ul>
+        <li><strong>Time:</strong> 30 minutes</li>
+        <li><strong>Serves:</strong> 24 cookies</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Flour</td><td>2 1/4 cups</td></tr>
+            <tr><td>Chocolate chips</td><td>2 cups</td></tr>
+        </tbody>
+    </table>
+
+    <p>Cream the butter and sugars until fluffy. Add eggs and vanilla, then mix in the dry ingredients. Fold in chocolate chips. Scoop dough onto a baking sheet and bake at 350°F for 10–12 minutes. Let cool before serving.</p>
+
+    <p class="source">Source: <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/" target="_blank">AllRecipes</a></p>
+
+    <!-- ✅ Recipe 3 -->
+    <h2 id="recipe3">Vegetable Stir Fry</h2>
+
+    <ul>
+        <li><strong>Time:</strong> 20 minutes</li>
+        <li><strong>Serves:</strong> 2 people</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Mixed vegetables</td><td>3 cups</td></tr>
+            <tr><td>Soy sauce</td><td>3 tbsp</td></tr>
+        </tbody>
+    </table>
+
+    <p>Heat oil in a wok. Add vegetables and stir-fry for 5–7 minutes. Add soy sauce and stir to coat evenly. Cook 2 more minutes. Serve over steamed rice or noodles for a quick, healthy meal.</p>
+
+    <p class="source">Source: <a href="https://www.loveandlemons.com/vegetable-stir-fry/" target="_blank">Love & Lemons</a></p>
+
+</body>
+</html>
